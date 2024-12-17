@@ -1,20 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <meta name="description" content="Welcome to My Website">
+    <title>Home - My Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- If you want to link an external CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            margin: 0 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .main-content {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
+
 <body>
+
+    <!-- Header Section -->
     <header>
-        <div class="heading">
-            <h1><span class="web-heading"><u> <span class="SR">S</span>ilk  <span class="SR">R</span>oad</u></span></h1>
-        </div>
-        <div class="sub-heading">
-            <h4><span class="sub-heading"><u>The  <span class="SR">Ultimate</span> Solution</u></span></h4>
-            
-        </div>
+        <h1>Welcome to My Website</h1>
+        <p>Your go-to place for amazing content!</p>
     </header>
- </body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="login.html">Login</a>
+        <a href="contactus.html">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <section id="home">
+            <h2>Home Section</h2>
+            <p>Welcome to our homepage! We are excited to have you here. Explore our website to know more about us.</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a group of passionate individuals who create and share valuable content. Learn more about us here!</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <p>We offer a variety of services including web development, design, and digital marketing.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to reach out, feel free to contact us.</p>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+
 </html>
