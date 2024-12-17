@@ -1,0 +1,21 @@
+div.heading{
+    background-color: black;
+    /* text-align: center; */
+}
+div >h1 ,h4{
+    display: inline;
+    margin-left: 100px;
+    text-decoration: underline ,white;
+}
+span.web-heading{
+    color: white;
+}
+span.SR{
+    color: red;
+}
+span.sub-heading{
+    color: white;
+}
+div.sub-heading{
+    background-color: black;
+}
